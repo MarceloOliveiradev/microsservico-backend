@@ -151,6 +151,8 @@ Ao fazer o download do repositório, o arquivo "docker-compose.yml" se encontra 
 
 A aplicação segue uma arquitetura baseada em microsserviços, com separação entre frontend, backend e API externa.
 
+Esta componente roda isoladamente com o Docker, podendo testar as rodar via Swagger sem a nacessidade de estar com a interface frontend-spa aberta em seu navegador.
+
 ## Fluxograma
 
 <div align="center">

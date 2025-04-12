@@ -80,7 +80,7 @@ Para que o backend funcione corretamente no Docker e aceite conexões externas, 
 app.run(debug=True, host='0.0.0.0')
 ```
 
-> Isso garante que a API escute não apenas no `localhost`, mas em todas as interfaces de rede do container.
+> Isso garante que a API execute não apenas no `localhost`, mas em todas as interfaces de rede do container.
 
 Acesse via navegador:
 

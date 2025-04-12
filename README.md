@@ -45,7 +45,7 @@ Desenvolver uma API REST para gerenciamento de um estoque de imãs de neodímio,
 
 ```bash
 git clone <url-do-repositório>
-cd microsservico-backend
+cd microsservico-backend ou <nome da pasta que estiver alocado os arquivos>
 ```
 
 2. Crie e ative um ambiente virtual:

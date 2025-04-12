@@ -140,3 +140,9 @@ docker compose up --build
 ## Arquitetura da Aplicação
 
 A aplicação segue uma arquitetura baseada em microsserviços, com separação entre frontend, backend e API externa.
+
+## Fluxograma
+
+<div align="center">
+  <img src="https://github.com/MarceloOliveiradev/frontend-spa/blob/main/img/fluxograma%20-%20arquitetura%20MVP2.png?raw=true" width="500px" />
+</div>

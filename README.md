@@ -93,8 +93,10 @@ http://localhost:5000/
 ## Executando com o Docker
 
 1. Certifique-se de que o Docker está instalado e rodando
+  
+2. Certifique-se que o seu terminal esteja na raiz do repositório antes de executar o comando.
 
-2. Execute o backend como container isolado:
+3. Execute o backend como container isolado:
 
 ```bash
 docker build -t mvp2-backend ./microsservico-backend
@@ -102,7 +104,7 @@ docker build -t mvp2-backend ./microsservico-backend
 docker run -d -p 5000:5000 --name backend-container mvp2-backend
 ```
 
-3. Para parar e remover o container:
+4. Para parar e remover o container:
 
 ```bash
 docker stop backend-container

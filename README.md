@@ -37,6 +37,10 @@ Desenvolver uma API REST para gerenciamento de um estoque de imãs de neodímio,
 
 ---
 
+Antes de darmos sequência, lembre-se de alterar o nome da pasta para "microsservico-backend", pois ao baixar o repositório o arquivo virá com o nome de "microsservico-backend-main", isso fará que ao rodar o código com o Docker não dê o erro com o nome da pasta.
+
+Fica a critério do usário alterar o nome da pasta ou alterar o nome da pasta no código de construção do Docker para o nome da pasta que estiver em sua máquina.
+
 ## Como executar
 
 ### Modo manual (sem Docker)

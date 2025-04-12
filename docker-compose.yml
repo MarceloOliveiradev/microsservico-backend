@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    container_name: mvp2-backend
+    build: ./microsservico-backend
+    ports:
+      - "5000:5000"
+    restart: always
+    networks:
+      - mvpnet
+
+  frontend:
+    container_name: mvp2-frontend
+    build: ./frontend-spa
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - mvpnet
+
+networks:
+  mvpnet:
+    driver: bridge
